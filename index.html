@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTR</title>
+
+    <style>
+      body {
+        padding: 0px 12.5%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #dee8f0;
+        color: #414141;
+      }
+
+      b {
+        color: #1e56a0;
+      }
+
+      details {
+        margin-bottom: 5px;
+        border: 1px solid #414141;
+        border-radius: 5px;
+        padding: 5px;
+      }
+
+      summary {
+        margin: 5px;
+      }
+
+      td {
+        padding: 5px;
+      }
+
+      table {
+        margin-top: 5px;
+        border: 1px solid #414141;
+        border-radius: 5px;
+      }
+
+      label {
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Disclaimer</h2>
+    <p>
+      <i>
+        <b
+          >Alle Programme/Scripts sind als aktueller Stand der Entwicklung zu
+          betrachten.</b
+        ><br />
+        Ich habe sie natürlich mit verschiedensten Werten eingehend getestet und
+        alle mir aufgefallenen Fehler behoben. Jedoch kann ich nicht
+        ausschließen, dass Berechnungen eventuell doch falsch sind. Ihr seid
+        also im Grunde genommen an Fehlern selber schuld, weil ihr es hättet
+        prüfen oder per Hand rechnen können. Wenn eine Note von euch durch eines
+        meiner Programme verhunzt werden sollte bin ich also nicht schuld.
+      </i>
+    </p>
+    <details>
+      <summary>HowTo installieren</summary>
+      Um Daten zwischen einem Computer und dem GTR übertragen zu können, müssen
+      beide über das dem GTR beiliegende <b>USB-Kabel</b> (nicht das dreipolige
+      Kabel) verbunden werden. Auf dem Taschenrechner erscheint nun ein
+      Auswahlfeld, als was dieser fungieren soll. Hier muss
+      <b>"Massenspeicher"</b> ausgewählt werden.<br />
+      Jetzt können die gewünschten Programme auf den GTR kopiert werden. Sind
+      alle Dateien kopiert, so <b>muss</b> der Taschenrechner ausgeworfen und
+      die Verbindung getrennt werden.*<br />
+      Nun muss auf dem GTR der Menüpunkt
+      <b>"System"</b>
+      gewählt werden. Hier die Option <b>"View Storage & Import"</b> wählen und
+      mit <b>"Select"</b> bestätigen. Die gewünschten Dateien können nun
+      ausgewählt und mittels des Buttons <b>"Import"</b> importiert werden. Im
+      nächsten Fenster kann ein etwaiger Ordner ausgewählt werden. (Der Standart
+      und empfohlenen Wert ist <b>"main"</b>). Nach dem die Installation final
+      bestätigt wurde sind die Programme installiert und zur Verwendung
+      verfügbar.<br /><br />
+      * Der Taschenrechner ist in diesem Bezug scheinbar dümmer als ein
+      USB-Stick.
+    </details>
+    <hr />
+    <details>
+      <summary>AnaGeo</summary>
+      <i>Warum:</i> <br />Mehr Übersicht <br />Alle Dateien sind komprimiert,
+      bedeutet wenn das Programm zwischendurch abstürzt oder beendet wird,
+      springt der GTR nicht in die Datei und ihr könntet etwas kaputt machen.
+      Das hirnrissige Konzept von “anaGeoRe” ist damit wie Ludwig XVI.
+      Geschichte.<br /><br />
+      <b
+        >Die Dateien im Unterordner “AnaGeo” müssen auf dem Taschenrechner
+        ebenfalls in einem Ordner mit dem Namen “AnaGeo” gespeichert sein. Groß-
+        und Kleinschreibung ist wichtig.</b
+      ><br />
+      Ebenfalls sollten alle bereits vorhandenen AnaGeo betreffende Dateien der
+      Übersicht halber gelöscht werden. Dafür müssen die vor den Dateinamen
+      positionierten Kästchen markiert werden und danach auf Edit->Löschen
+      geklickt werden. <br />Die zu AnaGeo gehörenden Dateien sind folgende:
+      <ul>
+        <li>EGl3P</li>
+        <li>EGloPara</li>
+        <li>LBEE</li>
+        <li>LBEG</li>
+        <li>LBEP</li>
+        <li>LBGG</li>
+        <li>LBGP</li>
+        <li>Tangente (ich weiß gehört nicht zu AnaGeo aber Potato Tomato)</li>
+        <li>anaGeo</li>
+        <li>anaGeoRe</li>
+        <li>dreieck</li>
+      </ul>
+
+      <br />
+      <a href="./files/AnaGeo.zip" download="">download</a>
+      <br />
+      <br />
+      <label>Wer ist schuld: die Mathelehrer-Dudes, aber primär C.Stauch</label>
+    </details>
+    <details>
+      <summary>caesar</summary>
+
+      <a href="./files/caesar.zip" download="">download</a>
+      <br />
+      <br />
+      <label>Wer ist schuld: Kilian</label>
+    </details>
+    <details>
+      <summary>convert</summary>
+      <i>Funktionsweise:</i><br />
+      Die umzurechnende Einheit wird wie bei AnaGeo mittels einer auf dem
+      Display angezeigten Zahl ausgewählt. Danach wird der aktuelle Wert
+      eingegeben. Das festlegen der aktuellen Einheit erfolgt danach ebenfalls
+      über einen Index. Nun werden alle möglichen Umrechnungen angezeigt.
+      <br />
+      <br />
+      <i>Anwendung:</i><br />
+      Das Script ist in der Lage, 11 Einheiten umzurechnen. Diese sind:
+      <table>
+        <thead>
+          <td>Index</td>
+          <td>Kategorie</td>
+          <td>Einheiten</td>
+        </thead>
+        <tr>
+          <td>0</td>
+          <td>Vorsätze</td>
+          <td>
+            Pico, Nano, Mikro, Milli, Zenti, Dezi, base thingy, Deka, Hekto,
+            Kilo, Mega, Giga
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Länge</td>
+          <td>
+            Nanometer, Mikrometer, Millimeter, Zentimeter, Dezimeter, Meter,
+            Kilometer
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Fläche</td>
+          <td>
+            Qudratmillimeter, Qudratzentimeter, Qudratdezimeter, Qudratmeter,
+            Ar, Hektar, Quadratkilometer
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Volumen</td>
+          <td>
+            Kubikmillimeter Kubikzentimeter Milliliter Kubikdezimeter Liter
+            Kubikmeter
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Masse</td>
+          <td>Mikrogramm,Milligramm,Gramm,Kilogramm,Tonne</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Zeit</td>
+          <td>Millisekunde, Sekunde, Minute, Stunde, Tag, Jahr</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Geschwindigkeit</td>
+          <td>Meter pro Sekunde, Kilometer pro Stunde</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Beschleunigung</td>
+          <td>Meter pro Quadratsekunde Erdbeschleunigung</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Energie/Arbeit</td>
+          <td>
+            Joule, Newtonmeter, Wattsekunde, Kilowattstunde, Elektronenvolt,
+            Kalorien
+          </td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Temperatur</td>
+          <td>Grad Celsius, Degree Freedom, Kelvin</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Druck</td>
+          <td>Pascal Bar Torr Millimeter Quecksilbersäule</td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+      <a href="./files/convert.zip" download="">download</a>
+      <br />
+      <br />
+      <label>Wer ist schuld: Kilian</label>
+    </details>
+    <details>
+      <summary>pflügen</summary>
+
+      <a href="./files/pflugen.zip" download="">download</a>
+      <br />
+      <br />
+      <label>Wer ist schuld: Pascal</label>
+    </details>
+    <details>
+      <summary>playfair</summary>
+
+      <a href="./files/playfair.zip" download="">download</a>
+      <br />
+      <br />
+      <label>Wer ist schuld: Pascal</label>
+    </details>
+    <details>
+      <summary>rsa</summary>
+      <b>WICHTIG:</b> Bevor das Script "rsa" verwendet werden kann muss das
+      Script "rsaSetup" gestartet werden.
+      <br />
+      <br />
+      <i>Modi:</i>
+      <ol start="0">
+        <li>
+          Manuell
+          <ul>
+            <li>
+              p, q und e müssen dem Programm händisch übergeben werden das
+            </li>
+            <li>
+              Programm berechnet automatisch N, φ(N), den privaten und den
+              öffentlichen Schlüssel
+            </li>
+            <li>
+              für d wird außerdem die Schrittfolge des erweiterten euklidischen
+              Algorithmus und etwaige Korrekturenausgegeben
+            </li>
+          </ul>
+        </li>
+        <li>
+          Halbautomatisch
+          <ul>
+            <li>p und q müssen dem Programm händisch übergeben werden</li>
+            <li>
+              das Programm wählt zufällig einen Wert für e aus und berechnet N,
+              φ(N), den privaten und den öffentlichen Schlüssel
+            </li>
+            <li>
+              für d wird außerdem die Schrittfolge des erweiterten euklidischen
+              Algorithmus und etwaige Korrekturen ausgegeben
+            </li>
+          </ul>
+        </li>
+        <li>
+          Vollautomatisch
+          <ul>
+            <li>das Programm wählt selbstständig Werte für p, q und e aus</li>
+            <li>
+              das Programm berechnet automatisch N, φ(N), den privaten und den
+              öffentlichen Schlüssel
+            </li>
+            <li>
+              für d wird außerdem die Schrittfolge des erweiterten euklidischen
+              Algorithmus und etwaige Korrekturen ausgegeben
+            </li>
+            <li>
+              <b>
+                Diese Funktion ist viel mehr als eine Art Gimmick gedacht und
+                nicht als tatsächliche Alternative zum händischen Auswählen von
+                p und q.
+              </b>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Verschlüsseln
+          <ul>
+            <li>
+              die Komponenten des öffentlichen Schlüssels (N und e) müssen
+              übergeben werden
+            </li>
+            <li>
+              die Eingabe des Textes erfolgt nach der Eingabe des öffentlichen
+              Schlüssels
+            </li>
+            <li>
+              Der Text wird in Zahlenwerte nach dem Index des Buchstabens im
+              Alphabet umgewandelt.
+            </li>
+            <li>
+              die Umlaute ä, ö, ü und ß werden durch ae, oe, ue und ss ersetzt
+            </li>
+            <li>
+              alle Buchstaben werden als Kleinbuchstaben interpretiert und
+              verschlüsselt
+            </li>
+            <li>beispielhafte Ausgabe: o => 15 => 84</li>
+          </ul>
+        </li>
+        <li>
+          Entschlüsseln
+          <ul>
+            <li>
+              die Komponenten des privaten Schlüssels (N und d) müssen übergeben
+              werden
+            </li>
+            <li>
+              die Eingabe der verschlüsselten Werte erfolgt nach der Eingabe des
+              privaten Schlüssels
+            </li>
+            <li>
+              Der Zahlenwerte werden in Kleinbuchstaben nach dem Index des
+              Buchstabens im Alphabet umgewandelt.
+            </li>
+            <li>
+              die verschlüsselten Werte werden als mittels Kommata (das richtige
+              Komma, nicht der Punkt) getrennte Zahlen eingegeben
+            </li>
+            <li>
+              beispielhafte Ausgabe: 84 => 15 => o
+              <ul>
+                <li>
+                  ist der entschlüsselte Wert nicht im Bereich 1 - 26, wird ein
+                  * angezeigt
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Zeichentabelle wechseln
+          <ul>
+            <li>
+              standartmäßig verwendet das Programm das Alphabet der kleinen
+              Buchstaben
+            </li>
+            <li>
+              hier kann eingestellt werden, dass das Alphabet oder der
+              ASCII-Code verwendet wird
+              <ul>
+                <li>
+                  es wird nicht die gesamte ASCII-Tabelle verwendet, aber alle
+                  auf dem Zettel von Herrn Alscher vermerkten Zeichen
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+      <br />
+      <br />
+      <a href="./files/rsa.zip" download="">download</a>
+      <br />
+      <br />
+      <label>Wer ist schuld: Kilian</label>
+    </details>
+    <details>
+      <summary>vigenere</summary>
+
+      <a href="./files/vigenere.zip" download="">download</a>
+      <br />
+      <br />
+      <label>Wer ist schuld: Kilian</label>
+    </details>
+  </body>
+</html>
